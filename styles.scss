@@ -496,6 +496,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
+
         &__box {
             display: flex;
             flex-direction: column;
@@ -544,6 +545,14 @@
         }
 
     }
+}
+
+.product__cards__box:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__cards__box:hover .product__cards__box__img {
+    filter: brightness(0.5);
 }
 
 .feture {

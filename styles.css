@@ -586,6 +586,16 @@
   background-color: #f16d7f;
 }
 
+.product__cards__box:hover {
+  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__cards__box:hover .product__cards__box__img {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
 .feture {
   padding-top: 113px;
 }
